@@ -256,9 +256,7 @@ const App: React.FC = () => {
             
             if (ph === ADMIN_PHONE && pw === ADMIN_PASS) {
               const masterAdmin: User = { username: 'Master Admin', phone: ADMIN_PHONE, password: ADMIN_PASS, email: '', isLoggedIn: true, isAdmin: true };
-              setCurrentUser(masterAdmin);
-              localStorage.setItem('investpkr_active_user', JSON.stringify(masterAdmin));
-              return;
+             
             }
 
             if (authMode === 'register') {
