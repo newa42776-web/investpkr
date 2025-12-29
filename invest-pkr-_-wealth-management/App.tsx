@@ -633,7 +633,7 @@ const App: React.FC = () => {
                 <div className="absolute top-0 right-0 w-full h-1 bg-amber-500/20"></div>
                 <p className="text-[10px] text-amber-500 uppercase font-black tracking-widest mb-4">Transfer Via EasyPaisa / JazzCash</p>
                 <p className="text-xl text-white font-black mb-1">Wasif Ali</p>
-                <p className="text-3xl font-mono text-amber-500 font-black tracking-[0.1em]">{ADMIN_PHONE}</p>
+                <p className="text-3xl font-mono text-amber-500 font-black tracking-[0.1em]">{'03175221276'}</p>
               </div>
               <form onSubmit={(e) => {
                 e.preventDefault();
