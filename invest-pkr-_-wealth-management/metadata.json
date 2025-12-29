@@ -1,0 +1,8 @@
+
+{
+  "name": "INVEST PKR | Wealth Management",
+  "description": "Premium VIP investment platform with daily ROI and AI-powered financial advisory.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
